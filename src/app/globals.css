@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -31,3 +38,15 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  width: 15px; /* largura da barra de rolagem no Chrome/Safari/Edge */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #240796; /* cor do polegar (barra) da rolagem */
+  border-radius: 5px; /* borda arredondada do polegar */
+}
+::-webkit-scrollbar-track {
+  background-color: #4d4a66; /* cor da pista (fundo) da rolagem */
+}
+
