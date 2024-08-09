@@ -35,7 +35,7 @@ export const projetos: Projeto[] = [
       },
     ],
     repositorio: 'https://github.com/rhbpinheiro/portfolio-rodolpho',
-    site: "https://play.google.com/store/apps/details?id=br.com.idagromaquinas.app&pli=1",
+    site: "https://portfolio-rodolpho.vercel.app/",
   },
   {
     imagem: ImgAppIdagro,
