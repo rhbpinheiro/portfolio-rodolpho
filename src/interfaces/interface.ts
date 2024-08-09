@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 export interface Stack {
   name: string;
-  icon: ReactNode;
+  icon: StaticImageData;
 }
 
 

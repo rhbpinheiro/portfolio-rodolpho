@@ -28,7 +28,7 @@ const CarouselItem = ({ projeto }: CarouselItemProps) => {
               data-tooltip-place="top"
               className="flex items-center  text-sm  rounded cursor-pointer"
             >
-              {stack.icon}
+              <Image src={stack.icon} alt={stack.name} className="w-8 h-8" />
             </li>
           ))}
           <Tooltip id="stack-tooltip" />

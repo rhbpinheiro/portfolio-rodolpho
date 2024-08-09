@@ -11,13 +11,16 @@ import ImgPortfolio from "../../../../public/projetos/portfolio.png";
 import ImgNotes from "../../../../public/projetos/notes.png";
 import ImgDevstravel from "../../../../public/projetos/devstravel.png";
 import { SkillIconsReactDark } from "@/icons/SkillIconsReactDark";
-import { SkillIconsFlutterDark } from "@/icons/SkillIconsFlutterDark";
-import { SkillIconsDartDark } from "@/icons/SkillIconsDartDark";
-import { SkillIconsNextjsDark } from "@/icons/SkillIconsNextjsDark";
-import { SkillIconsTypescript } from "@/icons/SkillIconsTypescript";
-import { SkillIconsStyledcomponents } from "@/icons/SkillIconsStyledcomponents";
-import { DeviconFirebase } from "@/icons/DeviconFirebase";
-import { SkillIconsTailwindcssDark } from "@/icons/SkillIconsTailwindcssDark";
+import flutterLogo from "../../../../public/skill-icons--flutter-dark.svg";
+import dartLogo from "../../../../public/skill-icons--dart-dark.svg";
+import javascriptLogo from "../../../../public/skill-icons--javascript.svg";
+import nextLogo from "../../../../public/skill-icons--nextjs-dark.svg";
+import reactLogo from "../../../../public/skill-icons--react-dark.svg";
+import styledLogo from "../../../../public/skill-icons--styledcomponents.svg";
+import tailwindLogo from "../../../../public/skill-icons--tailwindcss-dark.svg";
+import typescriptLogo from "../../../../public/skill-icons--typescript.svg";
+import firebaseLogo from "../../../../public/devicon--firebase.svg";
+
 // Import other stack icons as needed
 
 export const projetos: Projeto[] = [
@@ -27,15 +30,18 @@ export const projetos: Projeto[] = [
     descricao:
       "Desenvolvido para mostrar os meus projetos e meus conhecimentos.",
     stacks: [
-      { name: "React.js", icon: <SkillIconsReactDark className="w-8 h-8" /> },
-      { name: "Next.js", icon: <SkillIconsNextjsDark className="w-8 h-8" /> },
-      { name: "Next.js", icon: <SkillIconsTailwindcssDark className="w-8 h-8" /> },
+      { name: "React.js", icon: reactLogo },
+      { name: "Next.js", icon: nextLogo },
+      {
+        name: "Tailwind CSS",
+        icon: tailwindLogo,
+      },
       {
         name: "TypeScript",
-        icon: <SkillIconsTypescript className="w-8 h-8" />,
+        icon: typescriptLogo,
       },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/portfolio-rodolpho',
+    repositorio: "https://github.com/rhbpinheiro/portfolio-rodolpho",
     site: "https://play.google.com/store/apps/details?id=br.com.idagromaquinas.app&pli=1",
   },
   {
@@ -44,8 +50,8 @@ export const projetos: Projeto[] = [
     descricao:
       "Nesse projeto fui responsável por desenvolver o front-end da nova verão do aplicativo ID Agro Máquinas e também atuo na manutenção e desenvolvimento de novas funcionalidades.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
     repositorio: null,
     site: "https://play.google.com/store/apps/details?id=br.com.idagromaquinas.app&pli=1",
@@ -56,8 +62,8 @@ export const projetos: Projeto[] = [
     descricao:
       "Nesse projeto atuo na sustentação e desenvolvimento de novas funcionalidades relacionado ao front-end.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
     repositorio: null,
     site: null,
@@ -68,12 +74,15 @@ export const projetos: Projeto[] = [
     descricao:
       "Nesse projeto fui responsável por desenvolver o front-end da nova vesão do site ID Agro Máquinas, no site você encontra todas as informações relevantes ao projeto.",
     stacks: [
-      { name: "React.js", icon: <SkillIconsReactDark className="w-8 h-8" /> },
-      { name: "Next.js", icon: <SkillIconsNextjsDark className="w-8 h-8" /> },
-      { name: "Next.js", icon: <SkillIconsTailwindcssDark className="w-8 h-8" /> },
+      { name: "React.js", icon: reactLogo },
+      { name: "Next.js", icon: nextLogo },
+      {
+        name: "Tailwind CSS",
+        icon: tailwindLogo,
+      },
       {
         name: "TypeScript",
-        icon: <SkillIconsTypescript className="w-8 h-8" />,
+        icon: typescriptLogo,
       },
     ],
     repositorio: null,
@@ -85,8 +94,8 @@ export const projetos: Projeto[] = [
     descricao:
       "A Primeira vesão já existia mas em Wordpress, meu trabalho foi migrar a tecnogia o site para Flutter Web.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
     repositorio: null,
     site: null,
@@ -97,106 +106,87 @@ export const projetos: Projeto[] = [
     descricao:
       "Projeto desenvolvido durante meus estudos de programação. Neste projeto eu fiz o desenvolvimento do front-end e o back-end.",
     stacks: [
-      { name: "React.js", icon: <SkillIconsReactDark className="w-8 h-8" /> },
+      { name: "React.js", icon: reactLogo },
 
       {
         name: "Styled-Components",
-        icon: <SkillIconsStyledcomponents className="w-8 h-8" />,
+        icon: styledLogo,
       },
       {
         name: "TypeScript",
-        icon: <SkillIconsTypescript className="w-8 h-8" />,
+        icon: typescriptLogo,
       },
       {
         name: "Firebase",
-        icon: <DeviconFirebase className="w-8 h-8" />,
+        icon: firebaseLogo,
       },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/motostore',
+    repositorio: "https://github.com/rhbpinheiro/motostore",
     site: null,
   },
   {
     imagem: ImgDevstravel,
     titulo: "DevsTravel",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação. ",
+    descricao: "Projeto desenvolvido durante meus estudos de programação. ",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/devstravel',
+    repositorio: "https://github.com/rhbpinheiro/devstravel",
     site: null,
   },
   {
     imagem: ImgBitcent,
     titulo: "Bitcent",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação.",
+    descricao: "Projeto desenvolvido durante meus estudos de programação.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "React.js", icon: reactLogo },
+      { name: "Next.js", icon: nextLogo },
+      {
+        name: "Tailwind CSS",
+        icon: tailwindLogo,
+      },
+      {
+        name: "TypeScript",
+        icon: typescriptLogo,
+      },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/bitcent',
+    repositorio: "https://github.com/rhbpinheiro/bitcent",
     site: null,
   },
+
   {
     imagem: ImgVamosCozinhar,
     titulo: "Vamos Cozinhar",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação.",
+    descricao: "Projeto desenvolvido durante meus estudos de programação.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/vamos_cozinhar',
-    site: null,
-  },
-  {
-    imagem: ImgVamosCozinhar,
-    titulo: "Vamos Cozinhar",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação.",
-    stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
-    ],
-    repositorio: 'https://github.com/rhbpinheiro/vamos_cozinhar',
+    repositorio: "https://github.com/rhbpinheiro/vamos_cozinhar",
     site: null,
   },
   {
     imagem: ImgDespesas,
     titulo: "Despesas Pessoais",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação. ",
+    descricao: "Projeto desenvolvido durante meus estudos de programação. ",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/-personal_expenses',
+    repositorio: "https://github.com/rhbpinheiro/-personal_expenses",
     site: null,
   },
-  {
-    imagem: ImgDespesas,
-    titulo: "Despesas Pessoais",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação. ",
-    stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
-    ],
-    repositorio: 'https://github.com/rhbpinheiro/-personal_expenses',
-    site: null,
-  },
+
   {
     imagem: ImgNotes,
     titulo: "Notes",
-    descricao:
-      "Projeto desenvolvido durante meus estudos de programação. ",
+    descricao: "Projeto desenvolvido durante meus estudos de programação. ",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "Flutter", icon: flutterLogo },
+      { name: "Dart", icon: dartLogo },
     ],
-    repositorio: 'https://github.com/rhbpinheiro/notes',
+    repositorio: "https://github.com/rhbpinheiro/notes",
     site: null,
   },
 ];
