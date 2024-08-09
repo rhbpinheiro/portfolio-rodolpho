@@ -25,9 +25,8 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon-32x32.png"
         />
-        <ThemeProvider>
-          <Template>{children}</Template>
-        </ThemeProvider>
+
+        <Template>{children}</Template>
       </body>
     </html>
   );
