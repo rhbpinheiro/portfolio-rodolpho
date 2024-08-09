@@ -5,8 +5,7 @@ import Image from "next/image";
 
 import { motion } from "framer-motion";
 import Carousel from "@/components/Carrossel";
-import Carrossel from "@/components/Carrossel";
-import { projetos } from "./components/projetos";
+import  projetos  from "../../components/projetos";
 
 export default function PageProjetos() {
   return (

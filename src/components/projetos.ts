@@ -1,29 +1,26 @@
 import { Projeto } from "@/interfaces/interface";
-import ImgAppIdagro from "../../../../public/projetos/app.png";
-import ImgSiteIdagrov2 from "../../../../public/projetos/sitev2.png";
-import ImgSiteIdagrov1 from "../../../../public/projetos/sitev1.png";
-import ImgModulos from "../../../../public/projetos/renagro.png";
-import ImgBitcent from "../../../../public/projetos/bitcent.png";
-import ImgVamosCozinhar from "../../../../public/projetos/cozinhar.png";
-import ImgDespesas from "../../../../public/projetos/despesas.png";
-import ImgMotorStore from "../../../../public/projetos/moto.png";
-import ImgPortfolio from "../../../../public/projetos/portfolio.png";
-import ImgNotes from "../../../../public/projetos/notes.png";
-import ImgDevstravel from "../../../../public/projetos/devstravel.png";
-import { SkillIconsReactDark } from "@/icons/SkillIconsReactDark";
-import flutterLogo from "../../../../public/skill-icons--flutter-dark.svg";
-import dartLogo from "../../../../public/skill-icons--dart-dark.svg";
-import javascriptLogo from "../../../../public/skill-icons--javascript.svg";
-import nextLogo from "../../../../public/skill-icons--nextjs-dark.svg";
-import reactLogo from "../../../../public/skill-icons--react-dark.svg";
-import styledLogo from "../../../../public/skill-icons--styledcomponents.svg";
-import tailwindLogo from "../../../../public/skill-icons--tailwindcss-dark.svg";
-import typescriptLogo from "../../../../public/skill-icons--typescript.svg";
-import firebaseLogo from "../../../../public/devicon--firebase.svg";
+import ImgAppIdagro from "../../public/projetos/app.png";
+import ImgSiteIdagrov2 from "../../public/projetos/sitev2.png";
+import ImgSiteIdagrov1 from "../../public/projetos/sitev1.png";
+import ImgModulos from "../../public/projetos/renagro.png";
+import ImgBitcent from "../../public/projetos/bitcent.png";
+import ImgVamosCozinhar from "../../public/projetos/cozinhar.png";
+import ImgDespesas from "../../public/projetos/despesas.png";
+import ImgMotorStore from "../../public/projetos/moto.png";
+import ImgPortfolio from "../../public/projetos/portfolio.png";
+import ImgNotes from "../../public/projetos/notes.png";
+import ImgDevstravel from "../../public/projetos/devstravel.png";
+import flutterLogo from "../../public/skill-icons--flutter-dark.svg";
+import dartLogo from "../../public/skill-icons--dart-dark.svg";
+import nextLogo from "../../public/skill-icons--nextjs-dark.svg";
+import reactLogo from "../../public/skill-icons--react-dark.svg";
+import styledLogo from "../../public/skill-icons--styledcomponents.svg";
+import tailwindLogo from "../../public/skill-icons--tailwindcss-dark.svg";
+import typescriptLogo from "../../public/skill-icons--typescript.svg";
+import firebaseLogo from "../../public/devicon--firebase.svg";
 
 // Import other stack icons as needed
-
-export const projetos: Projeto[] = [
+const projetos: Projeto[] = [
   {
     imagem: ImgPortfolio,
     titulo: "Portfólio",
@@ -190,3 +187,5 @@ export const projetos: Projeto[] = [
     site: null,
   },
 ];
+
+export default projetos;

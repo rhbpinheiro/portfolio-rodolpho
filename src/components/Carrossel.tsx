@@ -5,6 +5,7 @@ import { Projeto } from "@/interfaces/interface";
 import { MaterialSymbolsArrowForwardIosRounded } from "@/icons/ArrowRight";
 import { MaterialSymbolsArrowBackIosRounded } from "@/icons/ArrowLeft";
 
+
 interface CarouselProps {
   projetos: Projeto[];
 }
