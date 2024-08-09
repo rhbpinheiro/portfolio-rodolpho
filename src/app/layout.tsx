@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Template from "@/pages/Template/Template";
-import { ThemeProvider } from "@/contexts/themeProvider";
+import Template from "@/pages/Template";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +24,7 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon-32x32.png"
         />
-
-        <Template>{children}</Template>
+          <Template>{children}</Template>
       </body>
     </html>
   );

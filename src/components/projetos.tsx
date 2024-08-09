@@ -11,7 +11,6 @@ import ImgPortfolio from "../../public/projetos/portfolio.png";
 import ImgNotes from "../../public/projetos/notes.png";
 import ImgDevstravel from "../../public/projetos/devstravel.png";
 import { SkillIconsReactDark } from "@/icons/SkillIconsReactDark";
-import flutterLogo from "../../public/flutter.svg";
 import { SkillIconsDartDark } from "@/icons/SkillIconsDartDark";
 import { SkillIconsNextjsDark } from "@/icons/SkillIconsNextjsDark";
 import { SkillIconsTypescript } from "@/icons/SkillIconsTypescript";
@@ -19,7 +18,6 @@ import { SkillIconsStyledcomponents } from "@/icons/SkillIconsStyledcomponents";
 import { DeviconFirebase } from "@/icons/DeviconFirebase";
 import { SkillIconsTailwindcssDark } from "@/icons/SkillIconsTailwindcssDark";
 import { SkillIconsFlutterDark } from "@/icons/SkillIconsFlutterDark";
-// Import other stack icons as needed
 
 export const projetos: Projeto[] = [
   {

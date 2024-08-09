@@ -1,6 +1,7 @@
+"use client";
 import Pagina from "@/components/Pagina";
-import React from "react";
-import Header from "./Header";
+import React, { Suspense } from "react";
+import Header from "../../components/Header";
 import Footer from "./Footer";
 import { ThemeProvider } from "@/contexts/themeProvider";
 

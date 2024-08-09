@@ -1,9 +1,5 @@
-"use client";
 import Area from "@/components/Area";
-import logo from "../../../../public/logo1.png";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-import MenuItem from "../Header/MenuItem";
+
 
 export default function Footer() {
   return (
