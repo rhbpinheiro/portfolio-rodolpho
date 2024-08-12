@@ -25,6 +25,10 @@ const ContactForm = () => {
   };
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if(formData.email === "") return toast.error('Por favor, insira seu e-mail');
+    if(formData.name === "") return toast.error('Por favor, insira seu nome');
+    if(formData.subject === "") return toast.error('Por favor, insira o assunto');
+    if(formData.message === "") return toast.error('Por favor, insira sua mensagem');
     const templateParams = {
       from_name: formData.name,
       email: formData.email,
