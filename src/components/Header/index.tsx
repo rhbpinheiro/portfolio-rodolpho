@@ -1,3 +1,4 @@
+"use client";
 import Area from "@/components/Area";
 import logo1 from "../../../public/logo1.png";
 import logo2 from "../../../public/logo2.png";
@@ -19,8 +20,8 @@ export default function Header() {
     { path: "/projetos", name: "Projetos" },
     { path: "/contatos", name: "Contato" },
   ];
+  console.log(theme)
   return (
-    <ThemeProvider>
       <Area>
         <div className="">
           <div className=" fixed top-0 left-0 right-0 bg-slate-100 dark:bg-gray-900 dark:text-slate-100 text-blue-900  mx-auto flex justify-between items-center w-full  shadow-md z-50 p-2">
@@ -47,6 +48,5 @@ export default function Header() {
           </div>
         </div>
       </Area>
-    </ThemeProvider>
   );
 }

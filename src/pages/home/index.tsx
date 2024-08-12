@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export default function PageHome() {
   return (
     <Area>
-      <div className="flex flex-col lg:flex-row items-center p-5 mb-8 md:mt-10 md:p-5 lg:mt-0 md:justify-center">
+      <div className="flex flex-col lg:flex-row items-center p-5 mb-8 md:mt-10 md:p-5 lg:mt-0 md:justify-center shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
         <div className="flex-grow">
           <motion.section
             id="home"

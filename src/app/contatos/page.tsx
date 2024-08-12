@@ -1,5 +1,9 @@
+import PageContato from "@/pages/contato";
+
 export default function PageContatos() {
-    return (
-        <h1>Contatos</h1>
-    )
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between ">
+      <PageContato />
+    </main>
+  );
 }

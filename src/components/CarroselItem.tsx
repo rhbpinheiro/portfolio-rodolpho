@@ -8,7 +8,7 @@ interface CarouselItemProps {
 
 const CarouselItem = ({ projeto }: CarouselItemProps) => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center py-6 px-8 mb-10 w-full rounded-lg shadow-md md:space-x-4 ">
+    <div className="flex flex-col md:flex-row items-center justify-center shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] py-6 px-8 mb-10 w-full rounded-lg md:space-x-4 ">
       <Image
         src={projeto.imagem}
         alt={projeto.titulo}

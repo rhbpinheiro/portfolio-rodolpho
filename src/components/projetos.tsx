@@ -51,7 +51,7 @@ export const projetos: Projeto[] = [
   },
   {
     imagem: ImgModulos,
-    titulo: "Módulos Renagro",
+    titulo: "Módulos ID Agro",
     descricao:
       "Nesse projeto atuo na sustentação e desenvolvimento de novas funcionalidades relacionado ao front-end.",
     stacks: [
@@ -69,7 +69,7 @@ export const projetos: Projeto[] = [
     stacks: [
       { name: "React.js", icon: <SkillIconsReactDark className="w-8 h-8" /> },
       { name: "Next.js", icon: <SkillIconsNextjsDark className="w-8 h-8" /> },
-      { name: "Next.js", icon: <SkillIconsTailwindcssDark className="w-8 h-8" /> },
+      { name: "Tailwind CSS", icon: <SkillIconsTailwindcssDark className="w-8 h-8" /> },
       {
         name: "TypeScript",
         icon: <SkillIconsTypescript className="w-8 h-8" />,
@@ -82,7 +82,7 @@ export const projetos: Projeto[] = [
     imagem: ImgSiteIdagrov1,
     titulo: "Site ID Agro Máquinas versão 1.0",
     descricao:
-      "A Primeira vesão já existia mas em Wordpress, meu trabalho foi migrar a tecnogia o site para Flutter Web.",
+      "A Primeira vesão já existia mas em Wordpress, meu trabalho foi migrar a tecnogia para Flutter Web.",
     stacks: [
       { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
       { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
@@ -132,8 +132,17 @@ export const projetos: Projeto[] = [
     descricao:
       "Projeto desenvolvido durante meus estudos de programação.",
     stacks: [
-      { name: "Flutter", icon: <SkillIconsFlutterDark className="w-8 h-8" /> },
-      { name: "Dart", icon: <SkillIconsDartDark className="w-8 h-8" /> },
+      { name: "React.js", icon: <SkillIconsReactDark className="w-8 h-8" /> },
+      { name: "Next.js", icon: <SkillIconsNextjsDark className="w-8 h-8" /> },
+      { name: "Next.js", icon: <SkillIconsTailwindcssDark className="w-8 h-8" /> },
+      {
+        name: "TypeScript",
+        icon: <SkillIconsTypescript className="w-8 h-8" />,
+      },
+      {
+        name: "Firebase",
+        icon: <DeviconFirebase className="w-8 h-8" />,
+      },
     ],
     repositorio: 'https://github.com/rhbpinheiro/bitcent',
     site: null,
