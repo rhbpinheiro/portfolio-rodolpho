@@ -8,6 +8,7 @@ interface CarouselItemProps {
 
 const CarouselItem = ({ projeto }: CarouselItemProps) => {
   return (
+    
     <div className="flex flex-col md:flex-row items-center justify-center shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] py-6 px-8 mb-10 w-full rounded-lg md:space-x-4 ">
       <Image
         src={projeto.imagem}
@@ -19,7 +20,7 @@ const CarouselItem = ({ projeto }: CarouselItemProps) => {
         <p className=" mb-2 md:mb-2 text-justify text-[14px] md:text-base">{projeto.descricao}</p>
         <p className=" ">Stacks utilizadas:</p>
 
-        <div className="flex flex-wrap items-center justify-center gap-1 md:gap-2">
+        <div className="flex flex-wrap items-center justify-center mb-1 gap-1 md:gap-2">
           {projeto.stacks.map((stack, stackIndex) => (
             <li
               key={stackIndex}

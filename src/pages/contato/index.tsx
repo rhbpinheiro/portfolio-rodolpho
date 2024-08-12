@@ -13,7 +13,7 @@ export default function PageContato() {
   return (
     <Area>
       <Toaster position="top-center" richColors  />
-      <div className="flex flex-col  items-center   ">
+      <div className="flex flex-col  items-center px-6 md:px-0 mb-12 md:mb-0">
         <h1 className="text-3xl font-bold mb-2 dark:text-slate-200 text-blue-500">
           Contato
         </h1>

@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 export default function PageSobre() {
   return (
     <Area>
+    <div className="p-6 md:px-0 mb-6 md:mb-0">
+
       <div className="flex flex-col lg:flex-row items-center p-5 mb-14  md:p-5 justify-center shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
         <div className="flex-grow">
           <motion.section
@@ -68,6 +70,7 @@ export default function PageSobre() {
           </motion.section>
         </div>
       </div>
+    </div>
     </Area>
   );
 }

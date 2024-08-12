@@ -61,14 +61,14 @@ const ContactForm = () => {
 
   return (
     <div className="my-6">
-      <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl dark:bg-transparent bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md dark:text-slate-200 text-[#333] font-[sans-serif]">
+      <div className="grid sm:grid-cols-2 items-center gap-8 p-8 mx-auto max-w-4xl dark:bg-transparent bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md dark:text-slate-200 text-[#333] font-[sans-serif]">
         <div className="dark:text-slate-200 text-blue-500">
           <h1 className="text-3xl font-extrabold md:text-left text-center">
             Vamos conversar
           </h1>
           <p className="text-sm mt-3 md:text-left text-center dark:text-slate-200 text-blue-500">
             Tem alguma grande ideia para desenvolver e precisa de ajuda? Então
-            entre em contato adoraríamos ouvir sobre seu projeto e fornecer
+            entre em contato adoraria ouvir sobre seu projeto e fornecer
             ajuda.
           </p>
           <div className="mt-12">
@@ -77,7 +77,7 @@ const ContactForm = () => {
             </h2>
             <ul className="mt-3">
               <li className="flex justify-center md:justify-start">
-                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full md:flex items-center justify-center shrink-0 hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
@@ -92,7 +92,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <p className="dark:text-slate-200 text-blue-500 text-sm ml-3">
-                  <small className="block md:text-left text-center">Mail</small>
+                  <small className="md:block md:text-left text-center hidden">Mail</small>
                   <strong>rhbpinheiro30@gmail.com</strong>
                 </p>
               </li>
