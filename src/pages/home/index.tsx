@@ -57,7 +57,7 @@ export default function PageHome() {
 
                   <a
                     target="blank"
-                    href="https://drive.google.com/file/d/1dnmWEcOLFUGstW_FgXexkd58TQzAmVQ9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/15kAF7DGpPmDhHRuHeBCe-hIHjPkQR-8K/view?usp=drive_link"
                     className="flex justify-center items-center font-semibold gap-1 bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
                   >
                     Download CV
